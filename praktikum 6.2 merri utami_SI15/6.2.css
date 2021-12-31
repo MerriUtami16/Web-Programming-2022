@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+nav{
+    background: rgb(206, 86, 106);
+    flex: 0 0 30vh;
+    flex-direction: row;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.tainer{
+    display: flex;
+    flex: 1;
+}
+.tainer>article{
+    flex: 1;
+    order: 1;
+    flex: 0 0 148vh;
+}
+.tainer>aside{
+    flex: 0 0 30vh;
+    background: #d80a6a;
+    order: 2;
+}
+header,footer{
+    background: rgb(22, 236, 183);
+    height: 20vh;
+    width: 178vh;
+}
+nav,header,article,aside,footer{
+    padding: 1em;
+}
